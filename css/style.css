@@ -1,0 +1,87 @@
+/*header*/
+.header{
+  display:flex;
+  justify-content:space-between;
+  background-color:#1dace0;
+  color: #fff;
+  font: size 18px;
+  padding:5PX 80PX;
+}
+.header-left{
+  display:flex;
+  align-items:center;
+}
+.header-left img{
+  height: 60px;
+}
+.header-left.name{
+  color:#74ea1f;
+}
+.header-right{
+  display:flex;
+  align-items:center;
+}
+.header-right div:first-child{
+  margin-right:20px;
+}
+/*headerここまで*/
+
+/*welcome*/
+.welcome{
+  display:fiex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  background-image:url(../img/sea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:60vh;
+  color:#fff;
+}
+.title{
+  font-size: 60px;
+  color: brown;
+}
+.title_sub{
+  font-size: 30px;
+  color: yellow;
+}
+.sentence{
+  font-size: 60px;
+  color: brown;
+}
+/*welcomeここまで*/
+
+/*過去編*/
+/* .past */
+.past_title{
+  font-size: 35px;
+  background-color: lightsalmon;
+}
+.past_list{
+  font-size: 30px
+}
+/*過去編ここまで*/
+
+/*目標編*/
+/* .goal */
+.goal_title{
+  font-size: 35px;
+  background-color: lightsalmon
+}
+.goal_list{
+  font-size: 30px
+}
+/*目標編ここまで*/
+
+/*footer*/
+.footer{
+  margin-top:70px;
+  display:flex;
+  justify-content:center;
+  background-color:rgb(18, 37, 23);
+  color:#fff;
+  font-size:18px;
+  padding:5px 0;
+}
+/*fotterここまで*/
